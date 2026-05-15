@@ -74,10 +74,14 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
       { name: "viewport", content: "width=device-width, initial-scale=1" },
       { title: "La Mantequilla Ags — Sabores para Compartir" },
       { name: "description", content: "Restaurante boutique de desayunos gourmet en Aguascalientes. Ingredientes 100% locales, recetas caseras y experiencia única. Mié–Lun 8am–2pm." },
-      { property: "og:title", content: "La Mantequilla Ags — The Breakfast Club" },
-      { property: "og:description", content: "Desayunos gourmet, pan recién horneado y café de especialidad en una casa histórica de Aguascalientes." },
+      { property: "og:title", content: "La Mantequilla Ags — Sabores para Compartir" },
+      { property: "og:description", content: "Restaurante boutique de desayunos gourmet en Aguascalientes. Ingredientes 100% locales, recetas caseras y experiencia única. Mié–Lun 8am–2pm." },
       { property: "og:type", content: "restaurant" },
       { name: "twitter:card", content: "summary_large_image" },
+      { name: "twitter:title", content: "La Mantequilla Ags — Sabores para Compartir" },
+      { name: "twitter:description", content: "Restaurante boutique de desayunos gourmet en Aguascalientes. Ingredientes 100% locales, recetas caseras y experiencia única. Mié–Lun 8am–2pm." },
+      { property: "og:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/3583e29a-ebd4-46d0-b04d-ddc37f458c8a/id-preview-78a24b0d--ffc219cc-f967-4cf5-90c6-7938fca2e7f4.lovable.app-1778868874301.png" },
+      { name: "twitter:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/3583e29a-ebd4-46d0-b04d-ddc37f458c8a/id-preview-78a24b0d--ffc219cc-f967-4cf5-90c6-7938fca2e7f4.lovable.app-1778868874301.png" },
     ],
     links: [
       {
