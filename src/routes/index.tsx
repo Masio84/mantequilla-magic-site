@@ -9,7 +9,6 @@ import { Gallery } from "@/components/site/Gallery";
 import { Testimonials } from "@/components/site/Testimonials";
 import { Contact } from "@/components/site/Contact";
 import { Footer } from "@/components/site/Footer";
-import { WhatsAppFab } from "@/components/site/WhatsAppFab";
 
 export const Route = createFileRoute("/")({
   component: Index,
@@ -30,7 +29,6 @@ function Index() {
         <Contact />
       </main>
       <Footer />
-      <WhatsAppFab />
     </div>
   );
 }
