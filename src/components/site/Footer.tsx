@@ -5,7 +5,9 @@ export function Footer() {
   return (
     <footer className="bg-coffee-dark text-cream/80 py-16">
       <div className="max-w-7xl mx-auto px-6 text-center">
-        <img src={logo} alt="La Mantequilla" className="h-20 w-auto mx-auto" />
+        <img src={logo} alt="La Mantequilla" className="h-16 w-auto mx-auto" />
+        <p className="font-serif text-2xl text-cream mt-2">La Mantequilla</p>
+        <p className="text-xs uppercase tracking-[0.3em] text-butter mt-1">The Breakfast Club</p>
 
         <div className="my-8 h-px bg-cream/15 max-w-md mx-auto" />
 
