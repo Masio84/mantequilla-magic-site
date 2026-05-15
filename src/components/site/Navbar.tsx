@@ -32,7 +32,14 @@ export function Navbar() {
     >
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex items-center justify-between h-16 md:h-20">
         <a href="#inicio" className="flex items-center gap-2" aria-label="La Mantequilla — Inicio">
-          <img src={logo} alt="La Mantequilla Ags" className="h-12 md:h-14 w-auto" />
+          <img src={logo} alt="" aria-hidden="true" className="h-10 md:h-12 w-auto -my-2" />
+          <span
+            className={`font-serif text-lg md:text-xl leading-none transition-colors ${
+              scrolled ? "text-coffee-dark" : "text-cream"
+            }`}
+          >
+            La Mantequilla
+          </span>
         </a>
 
         <nav className="hidden lg:flex items-center gap-8">
